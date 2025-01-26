@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-devcamp-api",
+  "version": "1.0.0",
+  "description": "Backend API using nodejs express and mongodb",
+  "keywords": [
+    "API",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "homepage": "https://github.com/codingbbq/nodejs-devcamp-api#readme",
+  "bugs": {
+    "url": "https://github.com/codingbbq/nodejs-devcamp-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingbbq/nodejs-devcamp-api.git"
+  },
+  "license": "MIT",
+  "author": "codingbbq",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
